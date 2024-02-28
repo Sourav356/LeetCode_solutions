@@ -13,12 +13,13 @@ class Solution:
 #         sen = " ".join(word_list)
         
 #         return sen
+
+        #or
         word_list = s.split()
         word_list.reverse()
         reversed_s = ' '.join(word_list)
         return reversed_s
         
     
-        # or 
         
         
