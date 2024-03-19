@@ -5,7 +5,6 @@ class Solution:
             nums.append(target)
             new = nums.sort()
             for i in range(len(nums)):
-
                 if nums[left] == target:
                     return left
                 else:
